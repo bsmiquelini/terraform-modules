@@ -10,6 +10,7 @@ module "storage_account" {
   location            = "East US"
   name                = "my-st"
   env                 = "Prod"
+  subscription_id     = "xxx"
 }
 ```
 
@@ -22,5 +23,6 @@ module "storage_account" {
   location            = azurerm_resource_group.rg.location
   name                = "my-st"
   env                 = "Prod"
+  subscription_id     = "xxx"
 }
 ```
