@@ -17,3 +17,9 @@ variable "env" {
   type        = string
   description = "Nome do enviroment do recurso"
 }
+
+variable "subscription_id" {
+  type        = string
+  description = "ID da subscrição para o módulo"
+}
+
